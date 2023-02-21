@@ -77,13 +77,22 @@ margin-top: 35px;
 padding: 15px;
 width: 229px;
 height: 48px;
-background-color: var(--off-white);
+background-color: var(--off-white);/*centrar el btn*/
+/*Sombra*/
+box-shadow: 0px 4px 8px rgba(89, 73, 36, 0.16);
 border: none;
 border-radius: 5px;
 font-size: 14px;
 font-weight: bold;
 text-decoration: none;
 color: var(--warm-black);
+}
+.header--button samp{
+ display: inline-block;
+ width: 13px;
+ height: 8px;
+ margin-left: 10px; 
+ background-image: url(assets/icons/down-arrow.svg);
 
 }
 
