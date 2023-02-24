@@ -93,6 +93,126 @@ color: var(--warm-black);
  height: 8px;
  margin-left: 10px; 
  background-image: url(assets/icons/down-arrow.svg);
+}
+main{
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main-exchange-container{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.main-exchange-container--title{
+  width: 90%;
+  min-width: 288px;/*no sera mas pequeño que:288px*/
+  max-width: 900px;/*no sera mas grande que: 900px*/
+  margin: 0 auto;
+}
+.main-exchange-container .backgroundImg{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url(assets/img/Bitcoin.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-exchange-container h2{
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: var(--black);
+}
+.main-exchange-container p{
+ margin-bottom: 50px;
+  font-style: normal;
+ font-weight: 500px;
+ font-size: 14px;
+ line-height: 18px;
+color:  #757575;
+}
+.main-tables-container{
+ text-align: start;
+ width: 100%;
+ height: auto;
 
 }
+.main-tables-container--title{
+width: 100%;
+height: 25px;  
+}
+.main-tables-container--title h3{
+margin-left: 70px;
+margin-bottom: 12px;
+width: 81px;
+height: 23px;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+color:#FF9536;
+}
+.main-tables-container--grid{
+display: grid;
+
+width: 200px;
+height: 159px;
+color: var(--black);
+align-items: center;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(4,1fr);
+background-color: var(--off-white);
+justify-content: center;
+margin: 0 auto;
+box-shadow: 0px 4px 8px rgba(89, 73, 36, 0.16);
+border-radius: 8.5px;
+}
+
+.main-tables-container--grid h4{
+ text-align: start;
+ padding-left: 12px;
+ font-weight: 500;
+ font-size: 16px; 
+ line-height: 19.36px;
+ color: #B5B0AC;
+}
+.main-tables-container--grid h5{
+  text-align: center;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 17px;
+ letter-spacing: -0.02em;
+}
+/*iconos*/span
+.main-tables-container--grid__Box, .Down{
+  margin-left: 10.5px;
+ display: inline-block; 
+ width: 15px;
+ height: 15px;
+ background-image: url(assets/icons/trending-down.svg); 
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main-tables-container--grid__Box .up{
+  margin-left: 10.5px;
+display: inline-block;
+width: 15px;
+height: 15px;
+background-image: url(assets/icons/trending-up.svg);  
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main-exchange-container__table-updateDate{
+margin-top: 20px;
+background-color: var(--soft-orange);
+}
+
 
